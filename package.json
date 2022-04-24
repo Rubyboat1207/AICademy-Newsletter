@@ -1,0 +1,21 @@
+{
+  "name": "aicademy-news",
+  "version": "1.0.0",
+  "description": "An Automated Newsletter",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node app.js",
+    "deploy": "gh-pages -d /"
+  },
+  "author": "Rubyboat & mlgnez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "tiny-lr": "^2.0.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
